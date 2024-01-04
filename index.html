@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    button{
+        background-color: darkcyan;
+    }
+</style>
+
+
+
+</head>
+
+<body>
+    <h1>it</h1>
+
+
+
+
+    <button onclick="alert('hello')">here</button>
+    
+    <button onclick="me()">me</button>
+<!-- time -->
+    <button onclick="aDate()">TIME</button>
+    
+    
+    <p id="tt" style="background-color: rgb(220, 153, 221);"></p>
+<!-- time2 -->
+
+    <button onclick="Date1()">TIME2</button>
+    
+   
+    
+    <p id="tt2" style="background-color: rgb(100, 44, 221);"></p>
+
+
+<!-- time3 -->
+
+    <button onclick="d2()">TIME2</button> 
+    <p id="tt3" style="background-color: rgb(100, 44, 221);"></p>
+
+
+
+
+    <button onclick="date()">me</button>
+    <p></p>
+    <script>
+
+
+ 
+let number=30;
+        let an=40;
+      
+    //    unfined
+        let unfined;
+        console.log(unfined);
+        
+        // null
+        const name= null;
+        console.log(name);
+       
+      
+
+        // number
+        console.log("number is"+(number));
+        console.log(number-an);
+
+
+        // string
+        let string="Animal"
+        console.log(string);
+        // boolean
+        let boolean=number<an;
+        console.log(boolean);
+        // arrey
+        let g= ["bird","cat","dog","cow"]
+        console.log(g[1]);
+
+        // Object
+        let Animal={
+            Name:"CAT",
+            Color:"black",
+            Food:"Fish"
+
+
+        };
+        console.log(Animal.Name);
+
+
+
+
+
+        // function
+        function na() {
+       console.log("Undefined: Represents an uninitialized variable or absence of a value.");
+       console.log("Null: Represents the intentional absence of any object value.");
+       console.log("Boolean: Represents a logical entity and can have two values: true or false.");
+       console.log("Number: Represents numeric values, both integers and floating-point numbers.");
+       console.log("String: Represents a sequence of characters enclosed in single  or double  quotes.");
+       console.log("Symbol: Introduced in ECMAScript 6 (ES6), represents a unique identifier.");
+       console.log("Object: Represents a collection of key-value pairs. Objects can be created using curly braces");
+       console.log("Array: A subtype of object, represents a collection of elements arranged in an ordered list.");
+       console.log("Function: A subtype of object, functions are " );
+    }
+    na()
+
+
+
+
+
+
+
+
+// function printName(firstName, lastName ){
+//     console.log(firstName+" "+lastName);
+
+// }
+
+// printName("black","cat") 
+// printName("black", "dog")
+
+// // veriable add 
+// function printNam(firstName, lastName ){
+//     console.log(firstName+" "+lastName);
+
+// }
+// var first='white';
+// var last='cat';
+
+// printName(first, last)
+
+// //user input 
+
+
+// function printNa(firstName, lastName){
+//     console.log(firstName+' '+lastName);
+    
+// }
+// let firstName=prompt("Enter   Name")
+//     let lastName=prompt("Enter  Email")
+// printNa(firstName, lastName)
+
+
+
+
+
+
+// //math veriable
+// function qus1(firstNumber,lastNumber){
+//     console.log(firstNumber + lastNumber);
+// }
+// let firs=+7;
+// let las=+7;
+// qus1(firs,last)
+
+
+// //math input
+// function sum(firstNumber, lastNumber){
+//     console.log(firstNumber+lastNumber)
+
+// }
+
+// let firstNum=+prompt("Enter first number");
+// let lastNum=+prompt("Enter last number");
+
+// sum(firstNumber,lastNumber)
+
+
+
+
+
+
+function me() {
+    document.write("hello document")
+}
+
+
+
+function Date1() {
+      document.getElementById("tt").innerHTML = Date();
+    }
+
+    function aDate() {
+      document.getElementById("tt2").innerHTML = Date();
+    }
+
+
+
+
+
+
+    function d2(){
+        document.getElementById("tt3").innerHTML=DelayNode()
+    }
+    </script>
+    
+   
+
+
+
+
+
+
+</body>
+</html>
